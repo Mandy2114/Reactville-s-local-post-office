@@ -1,0 +1,41 @@
+models = {()user ---+>username (hasshed password, email)
+(ref)recipe----> name
+(ref)ingredient<+---+>
+(inbed)review <+----+>
+()favorite---+>}
+auto crated ingredient .populate 
+
+.dashbord
+.page
+-recipe(show)
+
+<routes>
+recipe- create, delete, update, showsingle, showUserRecipe, showAll
+user - signin, signup, signout, :delete:
+favorite - post, delete
+review - post, delete, update
+
+componntes = (
+  navBar
+  dashboard
+  landing
+  signin
+  signout
+)
+
+services = (
+  auth
+  recipe
+  favorite
+)
+
+userStory
+- AAU, I want to sign up for an account and sign in, so that I can access my personal user profile and manage my recipe.
+- AAU, I should see a nav bar with links at the top of each page in the application.
+- AAU, clicking on the ‘Home’ link should navigate me to a landing page that displays the text ‘Unnamed’.
+- AAU, I need a dedicated page to view all items in my pantry, to easily manage and review what I have stored.
+
+shema -> verual
+
+fav provty of user
+
